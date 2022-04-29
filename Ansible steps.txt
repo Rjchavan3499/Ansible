@@ -32,7 +32,7 @@ ON MASTER:
 	cd .ssh
 	ls  (known host, authorized keys)
 	ssh-keygen  (do repeated enter until we get *** msg)
-	cat id.rsa.pub   (copy the code and go to slave)
+	cat id_rsa.pub   (copy the code and go to slave)
 
 
 ON SLAVE:
